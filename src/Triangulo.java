@@ -21,7 +21,7 @@ public class Triangulo {
 
     }
     //psvm
-    public static void main(String[] args)
+    static void main()
     {
         Triangulo triangulo = new Triangulo();
         int lado1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valor del primer lado"));
